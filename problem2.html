@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Problema 2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="titulo">
+    <h1><a href="https://www.linkedin.com/in/luis-carlos-hern%C3%A1ndez-sandoval-1ba20627a/" target="_blank">LUIS CARLOS HERNÁNDEZ SANDOVAL - 20540371</a> </h1>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">PROBLEMA 1</a></li>
+        <li><a href="problem2.html">PROBLEMA 2</a></li>
+        <li><a href="problem3.html">PROBLEMA 3</a></li>
+        <li><a href="problem4.html">PROBLEMA 4</a></li>
+        <li><a href="problem5.html">PROBLEMA 5</a></li>
+        <li><a href="problem6.html">PROBLEMA 6</a></li>
+        <li><a href="problem7.html">PROBLEMA 7</a></li>
+        <li><a href="problem8.html">PROBLEMA 8</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="content">
+    <!--Problema 2-->
+    <div class="problem" id="problem2">
+      <h2>Problema 2</h2>
+      <p>Ingrese dos números y seleccione la operación:</p>
+      <input type="text" id="num1" placeholder="Número 1">
+      <input type="text" id="num2" placeholder="Número 2">
+      <select id="operation">
+        <option value="add">Suma</option>
+        <option value="subtract">Resta</option>
+      </select>
+      <button onclick="applyOperation()">Aplicar Operación</button>
+      <div>Resultado del problema 2: <span id="result2"></span></div>
+    </div>
+  </div>
+  <script src="script2.js"></script>
+</body>
+</html>
